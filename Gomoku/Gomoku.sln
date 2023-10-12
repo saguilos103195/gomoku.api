@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gomoku.Domain", "Gomoku.Domain\Gomoku.Domain.csproj", "{14593F81-9B80-41AE-95AC-9B75FEB3CA3D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gomoku.Application", "Gomoku.Application\Gomoku.Application.csproj", "{F3B42DEA-1EFB-4A18-B27A-4D83AD3C6A3A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gomoku.Infrastructure", "Gomoku.Infrastructure\Gomoku.Infrastructure.csproj", "{B557750E-973D-4356-801F-82A59D9B54B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gomoku.Api", "Gomoku.Api\Gomoku.Api.csproj", "{0DFD3B12-FBE9-497E-B3CA-29D114BA537D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{14593F81-9B80-41AE-95AC-9B75FEB3CA3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14593F81-9B80-41AE-95AC-9B75FEB3CA3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14593F81-9B80-41AE-95AC-9B75FEB3CA3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14593F81-9B80-41AE-95AC-9B75FEB3CA3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3B42DEA-1EFB-4A18-B27A-4D83AD3C6A3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3B42DEA-1EFB-4A18-B27A-4D83AD3C6A3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3B42DEA-1EFB-4A18-B27A-4D83AD3C6A3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3B42DEA-1EFB-4A18-B27A-4D83AD3C6A3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B557750E-973D-4356-801F-82A59D9B54B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B557750E-973D-4356-801F-82A59D9B54B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B557750E-973D-4356-801F-82A59D9B54B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B557750E-973D-4356-801F-82A59D9B54B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DFD3B12-FBE9-497E-B3CA-29D114BA537D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DFD3B12-FBE9-497E-B3CA-29D114BA537D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DFD3B12-FBE9-497E-B3CA-29D114BA537D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DFD3B12-FBE9-497E-B3CA-29D114BA537D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {31D6BBE1-C084-40B0-927F-44482ED92A3D}
+	EndGlobalSection
+EndGlobal
